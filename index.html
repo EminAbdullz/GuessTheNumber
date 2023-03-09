@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="./script.js" defer></script>
+</head>
+<body>
+        <div class="container">
+        <!-- Guess the random num -->
+            <h1>Guess The Number from 0 to 10 !</h1>
+            <h2>You have 5 attempts !</h2>
+            <form action="">
+                <label for="input">Let'g GO!</label>
+                <input type="number" name="" id="input" placeholder="Enter your number" min="0" max="10">
+            </form>
+            <button>TRY !</button>
+            <div class="result"></div>
+
+            <span></span>
+        <!-- Guess the number -->
+            <h3>Choose the button and Guess The Number ! </h3>
+            <h2>You have 5 attempts !</h2>
+            <div class="buttons">
+                <button id="guesser" value="1">1</button>
+                <button id="guesser" value="2">2</button>
+                <button id="guesser" value="3">3</button>
+                <button id="guesser" value="4">4</button>
+                <button id="guesser" value="5">5</button>
+                <button id="guesser" value="6">6</button>
+                <button id="guesser" value="7">7</button>
+                <button id="guesser" value="8">8</button>
+                <button id="guesser" value="9">9</button>
+                <button id="guesser" value="10">10</button>
+            </div>
+            <div class="forAttempts"></div>
+        </div>
+
+        <button id="reload">Reload page</button>
+</body>
+</html>
